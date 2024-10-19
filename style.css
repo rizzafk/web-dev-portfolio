@@ -1,0 +1,60 @@
+/*
+  Syntax for css
+
+    Selector {
+	    property:  value;
+	    property:  value;
+    }
+
+*/
+
+  
+  *{
+  	font-family: "Roboton", sans-serif;
+  }
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+
+#profile {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.fa-globe, .fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube
+     {
+ 	font-size: 25px;
+ 	color: white;
+ 	margin: 0 10px 0 10px;
+ }
+ .fa-globe:hover, .fa-facebook:hover, .fa-twitter:hover, 
+ .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover
+     {
+ 	color: gray;
+ }
+
+
+body {
+	background-color: #A5A0A2;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%238c888a' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23747172' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%235d5a5b' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23464445' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23313030' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%231d1d1d' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23050505' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
